@@ -404,10 +404,10 @@ auto - 等同于 flex: 1 1 auto。
 }
 ```
 
-<img :src="\$withBase('/images/flex/flex-24.png')" alt="" style="width: 1000px;max-width="1000px";height: 100px;">
+<img :src="\$withBase('/images/flex/flex-24.png')" alt="" style="width: 1000px;max-width:"1000px";height: 100px;">
 
 可以看到，最后本应该占 1/4 空间的.flex4，因为文本不能换行，直接把 flex 容器撑开了，并且把其他的三个子元素挤成了最小空间，它本应该把文字截短并显示省略号，这是为什么呢？原来，
-flex 容器的 min-width 属性值为 auto，是由浏览器自行计算的，在这里它取了<p>元素的宽度，使得宽度成为了一整行 <p> 的宽度。
+flex 容器的 min-width 属性值为 auto，是由浏览器自行计算的，在这里它取了 p 元素的宽度，使得宽度成为了一整行 的宽度。
 那么要解决这个问题，可以把.flex4 这个嵌套 flex 容器的 min-width 改为 0，即最小宽度是 0，那么就可以正常收缩了
 
 ```css
