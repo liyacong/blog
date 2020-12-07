@@ -66,7 +66,7 @@ module.exports = {
       // 最后更新时间
       lastUpdated: 'Last Updated',
       // 作者
-      author: 'reco_luan',
+      author: 'lyc',
       // 备案号
       record: 'xxxx',
       // 项目开始时间
