@@ -4,8 +4,7 @@ date: 2020-12-07
 tags:
   - CSS
 categories:
-  - frontEnd
-  - frontStart
+  - CSS
 ---
 
 ## 开启 Flexbox
