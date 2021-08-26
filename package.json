@@ -1,7 +1,6 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -23,5 +22,14 @@
   },
   "dependencies": {
     "vuepress-theme-melodydl": "^1.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyacong/blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liyacong/blog/issues"
+  },
+  "homepage": "https://github.com/liyacong/blog#readme",
+  "description": ""
 }
