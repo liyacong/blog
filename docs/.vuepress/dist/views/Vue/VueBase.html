@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>入门须知 | LYC の Blog</title>
+    <meta name="generator" content="VuePress 1.5.4"> <link rel="icon" href="/liyacong.github.io/favicon.ico"> <meta name="description" content="记录前端生活"> <link rel="preload" href="/liyacong.github.io/assets/css/0.styles.0ff3d27b.css" as="style"><link rel="preload" href="/liyacong.github.io/assets/js/app.186adb7a.js" as="script"><link rel="preload" href="/liyacong.github.io/assets/js/2.f2422334.js" as="script"><link rel="preload" href="/liyacong.github.io/assets/js/8.e754a3bb.js" as="script"><link rel="prefetch" href="/liyacong.github.io/assets/js/10.b3c9010d.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/11.11890314.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/12.f697f399.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/13.3c9a0845.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/14.9e52d217.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/15.6b86346e.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/16.18900e7b.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/17.78422350.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/18.bcb6e364.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/19.7c7c421d.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/20.421d9c35.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/21.4d9e2e36.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/3.9821a27b.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/4.6f0134be.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/5.67d09924.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/6.1a566517.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/7.b56e4a26.js"><link rel="prefetch" href="/liyacong.github.io/assets/js/9.2f86639c.js"> <link rel="stylesheet" href="/liyacong.github.io/assets/css/0.styles.0ff3d27b.css">
+</head>
+
+<body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header><div class="note-row layout-header"><div class="note-col note-navbar-left"><button type="button" class="sidebar-button"><span class="sidebar-button-content"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></span></button> <a href="/liyacong.github.io/" class="home-link router-link-active"><span class="site-name">LYC の Blog</span></a></div> <div class="note-col note-navbar-right"><div class="search" style="width:30%;"><div class="searchbox"><div class="searchbox-icon"><svg t="1587518432004" color="rgba(0,0,0,.6)" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1873" class="icon"><path d="M946.155051 895.382691l-186.037067-186.032974c56.195883-67.547419 89.998757-154.376996 89.998757-249.113661 0-215.247342-174.49315-389.741515-389.746632-389.741515-215.247342 0-389.741515 174.49315-389.741515 389.741515 0 215.252459 174.49315 389.746632 389.741515 389.746632 95.768157 0 183.461405-34.540677 251.317862-91.841731l185.853895 185.853895c6.710842 6.714935 15.505136 10.067286 24.304546 10.067286 8.794293 0 17.593703-3.357468 24.307615-10.067286C959.576735 930.575214 959.576735 908.808468 946.155051 895.382691L946.155051 895.382691zM460.370109 781.233907c-43.363623 0-85.392856-8.476045-124.920104-25.195845-38.217417-16.166191-72.554456-39.321564-102.054327-68.821435-29.504988-29.504988-52.655244-63.836911-68.821435-102.054327-16.720823-39.529295-25.195845-81.561597-25.195845-124.925221 0-43.363623 8.476045-85.392856 25.195845-124.925221 16.166191-38.2123 39.316447-72.550363 68.821435-102.050234 29.499871-29.504988 63.836911-52.66036 102.054327-68.821435 39.528272-16.7198 81.556481-25.195845 124.920104-25.195845s85.395926 8.476045 124.925221 25.195845c38.217417 16.161075 72.554456 39.316447 102.054327 68.821435 29.499871 29.499871 52.655244 63.831794 68.820412 102.050234 16.721847 39.529295 25.196869 81.561597 25.196869 124.925221 0 43.363623-8.476045 85.395926-25.196869 124.925221-16.164145 38.217417-39.315424 72.550363-68.820412 102.054327-29.499871 29.499871-63.836911 52.655244-102.054327 68.821435C545.767058 772.758885 503.734756 781.233907 460.370109 781.233907L460.370109 781.233907zM460.370109 781.233907" p-id="1874"></path></svg></div> <div class="searchbox-content"><input type="text" name="search" autocomplete="off" aria-label="Search" value=""></div> <!----></div></div> <div class="navlinks can-hide"><nav class="note-nav-links"><div class="nav-items"><a href="/liyacong.github.io/" class="nav-link">Home</a></div><div class="nav-items"><a href="https://github.com/liyacong/blog" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></div></div></header> <main><div class="note-sidebar animated fadeInLeft faster" style="display:none;"> <!----> </div> <div class="note-page" style="padding-left:;"> <div class="theme-note-content content__default"><h3 id="插值操作-mustache"><a href="#插值操作-mustache" class="header-anchor">#</a> 插值操作--mustache</h3> <div class="language-markdown extra-class"><pre class="language-markdown"><code>常见指令使用
+1、v-once
+ （1）该指令后面不需要跟任何表达式
+ （2）该指令表示元素和组件只渲染一次，不会随数据的改变而改变
+  eg：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">v-once</span><span class="token punctuation">&gt;</span></span>{{ message }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+2、v-html 把html代码解析，只显示内容
+3、v-text 一般不用,不够灵活
+4、v-pre 不解析(用于跳过这个元素和它子元素的编译过程,用于显示原本的 mustache 语法)
+   eg：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">v-pre</span><span class="token punctuation">&gt;</span></span>{{msg}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>   即使data里面定义了msg这里仍然是显示的{{msg}}
+5、v-cloak 解决文本闪烁问题
+  在 vue 解析之前,标签中有一个属性 v-cloak
+  在 vue 解析之后,标签中没有一个属性 v-cloak
+  [v-cloak]{
+    display: none
+  }
+</code></pre></div><h3 id="v-bind指令-v-bind-指令被用来响应地更新-html-属性-其实它是支持一个单一-javascript-表达式-v-for-除外"><a href="#v-bind指令-v-bind-指令被用来响应地更新-html-属性-其实它是支持一个单一-javascript-表达式-v-for-除外" class="header-anchor">#</a> v-bind指令（v-bind 指令被用来响应地更新 HTML 属性，其实它是支持一个单一 JavaScript 表达式 （v-for 除外））</h3> <div class="language-markdown extra-class"><pre class="language-markdown"><code>tips: 语法糖是指在不影响功能的情况下，添加某种方法实现同样的效果，从而方便程序开发，简化代码的书写。[](https://github.com/tc39/ecma262)
+eg：v-bind:src=''====&gt;:src=''   v-on:click=&quot;handleClose&quot;=====&gt;@click=&quot;handleClose&quot;
+1、绑定一个属性
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>button<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>按钮<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>myTitle<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+2、内联字符串拼接
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>button<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>按钮<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>myTitle + <span class="token punctuation">'</span>1234<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+3、动态绑定 class <span class="token url">[<span class="token content">参考地址</span>](https://juejin.cn/post/6844903920121151501)</span>
+  （1）对象语法
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">:class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{类名1: true, 类名2: false}<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+       如果过于复杂,可以放在一个methods或者computed中
+        eg:
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">:class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>classObject<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        data: {
+          isActive: true,
+          error: null
+        },
+        computed: {
+          classObject: function () {
+            return {
+              active: this.isActive &amp;&amp; !this.error,	//isActive为true，且error不为null
+              'text-danger': this.error &amp;&amp; this.error.type === 'fatal'
+                //error为null且this.error.type === 'fatal'
+            }
+          }
+        }
+
+ （2）数组语法
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">:class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">'</span>[{ check_pendingStatus: p.AuditState==1 },{ passStatus: p.AuditState==2 } ,{ rejectStatus: p.AuditState==3 }]<span class="token punctuation">'</span></span>  <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>p.AuditState==1<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+ （3）三元表达式动态切换 class
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">:class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>[isActive ? activeClass : <span class="token punctuation">'</span><span class="token punctuation">'</span>, errorClass]<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+4、style的绑定（不推荐使用）
+  （1）对象方式
+       v-bind:style 的对象语法十分直观——看着非常像 CSS，但其实是一个 JavaScript 对象。CSS 属性名可以用驼峰式 (camelCase) 或短横线分隔 (kebab-case，记得用单引号括起来) 来命名：
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name"><span class="token namespace">v-bind:</span></span><span class="token style-attr language-css"><span class="token attr-name"><span class="token attr-name">style</span></span><span class="token punctuation">=&quot;</span><span class="token attr-value"><span class="token punctuation">{</span> <span class="token property">color</span><span class="token punctuation">:</span> activeColor<span class="token punctuation">,</span> <span class="token property">fontSize</span><span class="token punctuation">:</span> fontSize + <span class="token string">'px'</span> <span class="token punctuation">}</span></span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        data: {
+          activeColor: 'red',
+          fontSize: 30
+        }
+       直接绑定到一个样式对象通常更好，这会让模板更清晰：
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">:</span><span class="token style-attr language-css"><span class="token attr-name"><span class="token attr-name">style</span></span><span class="token punctuation">=&quot;</span><span class="token attr-value">styleObject</span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        data: {
+          styleObject: {
+            color: 'red',
+            fontSize: '13px'
+          }
+        }
+  （2）数组语法绑定style
+       v-bind:style 的数组语法可以将多个样式对象应用到同一个元素上
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name"><span class="token namespace">v-bind:</span></span><span class="token style-attr language-css"><span class="token attr-name"><span class="token attr-name">style</span></span><span class="token punctuation">=&quot;</span><span class="token attr-value">[baseStyles<span class="token punctuation">,</span> overridingStyles]</span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="v-if-和-v-else"><a href="#v-if-和-v-else" class="header-anchor">#</a> v-if 和 v-else</h3> <div class="language-markdown extra-class"><pre class="language-markdown"><code>注：v-if可以与template连用，两个即两个以上的div需要同一个元素控制的时候，用template！！！减少空间浪费
+登录切换小案例---input 复用问题
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">'</span>type=<span class="token punctuation">&quot;</span>name<span class="token punctuation">&quot;</span><span class="token punctuation">'</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>请输入名称<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-else</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>请输入电话<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+问题: 如果我们在输入内容的情况下,切换了类型,我们会发现文字依然显示之前的输入的内容
+问题解答: 这是因为 Vue 在进行 DOM 渲染时,出于性能考虑,会尽可能的复用已经存在的元素,而不是重新创建新的元素. 在上面的案例中,Vue 内部会发现原来的 input 元素不再使用,直接作为 else 中的 input 来使用了
+解决方案: 如果我们不希望 Vue 出现类似重复利用的问题,可以给对应的 input 添加 key,并且我们需要保证 key 的值不同
+</code></pre></div><h3 id="v-show"><a href="#v-show" class="header-anchor">#</a> v-show</h3> <div class="language-markdown extra-class"><pre class="language-markdown"><code>注：v-if和v-show的作用都把内容显示和隐藏，不同的是，v-if在元素隐藏的时候，是把整个DOM元素删除。v-show是在DOM元素上添加一个样式，把内容隐藏起来。
+当内容需要频繁切换的时候，就用v-show，反之则用v-if
+
+注：在使用template时，v-show将失去作用。因为v-show是设置显示与隐藏，而template是没有实际东西的dom，所以v-show与template联合使用将失效。
+</code></pre></div><h3 id="v-for"><a href="#v-for" class="header-anchor">#</a> v-for</h3> <div class="language-markdown extra-class"><pre class="language-markdown"><code>1、遍历数组
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>(item,index) in items<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>item.name<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    注：key属性的作用主要是为了高效的更新虚拟的DOM，key值不要去index，需要使用每个节点的唯一标识来作为key
+    不使用index的原因：如果从一个数组中间第二个位置插入一个值，这样原始第三个值的index会给新插入的第二个值依次类推，导致没有效率
+
+2、遍历对象
+  （1）在遍历对象的过程中，如果只是获取一个值，那么获取到的值是 value
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>item in info<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>item<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{item}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  （2）获取key和value格式：（value，key）
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>（value，key） in info<span class="token punctuation">&quot;</span></span>  <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>value<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{value}}---{{key}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  （3）获取key和value和index格式：（value，key，index）不常用
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>（value，key，index） in info<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>value<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{value}}---{{key}}---{{index}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+3、循环一个迭代的数字
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>count in 10<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>count<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>这是第{{count}}次循环<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div><h3 id="vue可响应式数组方法"><a href="#vue可响应式数组方法" class="header-anchor">#</a> Vue可响应式数组方法</h3> <div class="language-markdown extra-class"><pre class="language-markdown"><code>因为 Vue 是响应式的，所以当数据发生变化时，Vue 会自动检测数据变化，视图会发生对应的更新，Vue 中包含了一组观察数组编译的方法，使用他们改变数组也会触发视图的更新。
+1、push 方法
+    this.names.push('why','code')
+2、pop 方法---删除数组的最后一位元素
+    this.names.pop()
+3、shift 方法---删除数组的第一个元素
+    this.names.shift()
+4、unshift 方法---在数组最前面添加元素
+    this.names.unshift('why','code')
+5、splice 方法---删除元素/替换元素/插入元素
+    第一位参数表示开始删除/插入元素的索引值
+    删除元素:第二个参数代表删除几个元素,如果没写则代表从开始位置一直删除到最后
+    this.names.splice(1,3)
+    this.names.splice(1)
+    替换元素:第二个参数,表示我们要替换几个元素,后面是用于替换前面的元素
+    this.names.splice(1,3,'a','b','c')--可以理解为从 1 的位置开始删除了三个元素,往后又追加了三个值
+    插入元素:第二个参数,传入 0,并且后面跟上要插入的元素
+    this.names.splice(1,0,'a','b','c')
+
+6、sort 方法---排序数据
+7、reserve 方法---翻转数据
+    this.names.reserve()
+
+
+<span class="token code keyword">    注:通过索引值修改数组中的元素是不会触发数据响应式的 eg:this.names[0] = 'lyc'，可以用splice纠正this.names.splice(0,1,&quot;lyc&quot;)或者用vue内部方法set：Vue.set(this.splice,0,&quot;lyc&quot;)</span>
+</code></pre></div><h3 id="高阶函数"><a href="#高阶函数" class="header-anchor">#</a> 高阶函数</h3> <div class="language-markdown extra-class"><pre class="language-markdown"><code>1、filter ---数组过滤（必须返回一个 Boolean 值）
+    true：当返回 true 时，函数内部会自动将这次回调的 n 加入新的数组中
+    false：当返回 false 时，函数内部会过滤掉这次的 n
+    eg：
+    var arr = [20,30,50, 96,50]
+    var newArr = arr.filter(item =&gt; item&gt;40)  
+    console.log(newArr)
+
+扩展：
+数组去重
+    var arr = [1, 2, 2, 3, 4, 5, 5, 6, 7, 7,8,8,0,8,6,3,4,56,2];
+    var arr2 = arr.filter((x, index, self)=&gt;self.indexOf(x)===index)  
+    console.log(arr2); //[1, 2, 3, 4, 5, 6, 7, 8, 0, 56]
+    详解：filter(x,index,self)可以为数组提供过滤功能，其中x代表元素，index是与X一同传入元素的索引，而self代表数组本身，indexOf始终返回第一次找到匹配该元素的索引
+
+数组去重 es6
+    var arr=[1,2,1,'1',null,null,undefined,undefined,NaN,NaN]
+    //使用Array.from转成数组
+    let res=Array.from(new Set(arr));//{1,2,&quot;1&quot;,null,undefined,NaN}
+    //or
+    let newarr=[...new Set(arr)]
+
+数组对象去重 es6
+    let person = [
+    {id: 0, name: &quot;小明&quot;},
+    {id: 1, name: &quot;小张&quot;},
+    {id: 2, name: &quot;小李&quot;},
+    {id: 3, name: &quot;小孙&quot;},
+    {id: 1, name: &quot;小周&quot;},
+    {id: 2, name: &quot;小陈&quot;},
+    ];
+    
+<span class="token code keyword">    let obj = {};</span>
+    
+<span class="token code keyword">    let peon = person.reduce((cur,next) =&gt; {
+    obj[next.id] ? &quot;&quot; : obj[next.id] = true &amp;&amp; cur.push(next);
+    return cur;
+    },[]) </span>
+   //设置 cur 默认类型为数组，并且初始值为空的数组
+
+2、map 映射，即原数组映射成一个新的数组；
+
+3、reduce 对数组中所有的内容进行汇总 <span class="token url">[<span class="token content">https://blog.csdn.net/weixin_36617251/article/details/104787591</span>](例子)</span> 
+<span class="token url">[<span class="token content">https://blog.csdn.net/weixin_42498482/article/details/105810836</span>](详解)</span>
+</code></pre></div><h3 id="v-model-的使用和原理"><a href="#v-model-的使用和原理" class="header-anchor">#</a> v-model 的使用和原理</h3> <div class="language-markdown extra-class"><pre class="language-markdown"><code>v-model 其实是一个语法糖，它的背后本质上是包含两个操作：
+1、v-bind 绑定一个 value 属性
+2、v-on 指令给当前元素绑定 input 事件
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span> <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>message<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    等同于
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>message<span class="token punctuation">&quot;</span></span> <span class="token attr-name">@input</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span> message = $event.target.value<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+
+修饰符
+lazy修饰符  v-model.lazy
+默认情况下，v-model默认是在input事件中同步输入框的数据的。也就是说，一旦有数据发生改变对应的data中的数据就会自动发生改变
+lazy修饰符可以让数据在失去焦点或者回车时才会更新
+
+number修饰符  v-model.number
+默认情况下,在输入框中无论我们输入的是字母还是数字,都会被当做字符串类型进行处理,但是如果希望处理的是数字类型,那么最好直接将内容当做数字处理
+number修饰符可以让在输入框中输入的内容自动转换成数字类型
+
+
+trim修饰符 v-model.trim
+如果输入的内容首位有很多空格,通常我们希望将其去除
+trim修饰符可以过滤内容左右两边的空格
+
+
+</code></pre></div><h3 id="props-父传子"><a href="#props-父传子" class="header-anchor">#</a> props  父传子</h3> <div class="language-markdown extra-class"><pre class="language-markdown"><code>tips:不太建议使用数组形式，常用对象形式
+
+参数对象含有4个属性，type、required、default、validator。
+
+type：设定参数类型，当传入参数类型与type不相符时，控制台会报错
+
+required：设定参数是否是必传，当设为true时，不传该参数会报错
+
+default：设定默认值，当参数类型为复杂类型时，需使用工厂模式生成默认值，否则Vue会在控制台抛出警告。如图所示，就通过工厂模式生成了一个长度为3的空数组。
+
+validator：校验器，是一个函数，拥有一个代表传入值的形参，可以自定义各种校验，当返回false时，会报错，表示没通过校验。
+
+eg：
+props: {
+    data1: {
+        type: String,
+        required: true,
+        default: 'default value',
+        validator (value) {
+            return (value.length &lt; 5)
+        }
+   },
+    data2: {
+        type: Array,
+        required: true,
+        default: () =&gt; ['', '', '']
+    }
+}
+
+tip: 子组件接收props属性childMyMessage，在父组件传值的时候即支持驼峰写法childMyMessage，也可以写成这种child-my-message（建议这种的）
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>cnp</span> <span class="token attr-name">:cinfo</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>info<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:child-my-message</span> <span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>message<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>cnp</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div><h3 id="emit-子传父"><a href="#emit-子传父" class="header-anchor">#</a> $emit 子传父</h3> <h3 id="父访问字-children-不常用-refs"><a href="#父访问字-children-不常用-refs" class="header-anchor">#</a> 父访问字  children（不常用） refs</h3> <h3 id="子访问父-parent-root-根-vue实例"><a href="#子访问父-parent-root-根-vue实例" class="header-anchor">#</a> 子访问父  parent root（根 vue实例）</h3> <h3 id="插槽-slot"><a href="#插槽-slot" class="header-anchor">#</a> 插槽 slot</h3> <div class="language-markdown extra-class"><pre class="language-markdown"><code>
+1、具名插槽
+父组件
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">slot</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>left<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>222<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+子组件
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>slot</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>left<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>slot</span><span class="token punctuation">&gt;</span></span>
+
+2、作用域插槽 | 带数据的插槽
+//TODO 父组件：
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>cpn</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">solt-scope</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>slot<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>item in slot.data<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{item}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>cpn</span><span class="token punctuation">&gt;</span></span>
+
+
+//TODO 子组件：
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>slot</span> <span class="token attr-name">:data</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>pLanguages<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>item in pLanguages<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{item}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>slot</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div><h3 id="模块化-commonjs-、es6模块化export-import、amd、cmd"><a href="#模块化-commonjs-、es6模块化export-import、amd、cmd" class="header-anchor">#</a> 模块化  CommonJS 、ES6模块化Export import、AMD、CMD</h3> <h3 id="vuecli3脚手架"><a href="#vuecli3脚手架" class="header-anchor">#</a> VueCLI3脚手架</h3> <div class="language-markdown extra-class"><pre class="language-markdown"><code>&quot;0&quot;配置
+1、可以通过vue ui启动配置服务查看和修改配置
+2、通过下载的依赖文件的@vue/cli-service/lib/Service.js查看配置
+3、自定义配置:可以通过新建vue.config.js添加配置
+</code></pre></div><div class="language-markdown extra-class"><pre class="language-markdown"><code>问题：箭头函数中的this是如何查找的？
+答案：向外层作用域中，一层层查找this，直到有this的定义
+</code></pre></div><h3 id="url的hash和html5的history"><a href="#url的hash和html5的history" class="header-anchor">#</a> url的hash和html5的history</h3> <div class="language-markdown extra-class"><pre class="language-markdown"><code>location.hash = 'aaa'===&gt;localhost:8080/aaa
+history.pushState({},'','home')===&gt;localhost:8080/home  栈结构先进后出
+history.pushState({},'','about')===&gt;localhost:8080/about
+history.pushState({},'','My')===&gt;localhost:8080/My
+history.back() 会返回到about地址
+
+history.replaceState({},&quot;&quot;,&quot;/foo/bar&quot;)  替换后浏览器的后退按钮是不可点击的
+
+
+history.go(-1) 等价于 history.back()
+history.go(1) 等价于 history.forward()
+等于浏览器界面的前进后退
+</code></pre></div><h3 id="安装和使用vue-router"><a href="#安装和使用vue-router" class="header-anchor">#</a> 安装和使用vue-router</h3> <div class="language-markdown extra-class"><pre class="language-markdown"><code>安装 vue-router
+npm install vue-router --save
+在模块化工程中使用它（因为是一个插件，所以可以通过Vue.user()来安装路由功能）
+1、导入路由对象（import VueRouter from ‘vue-router’），并且调用Vue.use(VueRouter)
+2、创建路由实例，并且传入路由映射配置
+const routes = []
+const router = new VueRouter({
+  //配置路由和组件之间的应用关系
+   routes
+})
+3、在Vue实例中挂载创建的路由实例
+将router对象传入到vue实例
+export default router
+
+使用vue-router的步骤
+1、创建路由组件
+2、配置路由映射：组件和路径映射关系
+3、使用路由：通过<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>router-link</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>router-link</span><span class="token punctuation">&gt;</span></span>和<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>router-view</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>router-view</span><span class="token punctuation">&gt;</span></span>
+router-link相关属性
+to：用于指定跳转的路径
+replace：replace不会留下history记录，所以指定replace的情况下，后退键返回不能返回到上一个页面中
+active-class：自定义router-link路由匹配成功时的类名，如果不想在每个router-link上设置，可以在全局映射路由配置那设置linkActiveClass:'active'
+
+
+redirect路由重定向
+路由默认的Hash模式改为History模式
+
+
+
+$router 路由跳转
+this.$router.push('/home')  push=&gt;pushState
+
+this.$router.replace('/home')  类似router-link的replace
+
+
+动态路由
+1、const router = [{
+   path:'/user/:abc',
+   component:User
+}]
+
+2、首页 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>router-link</span> <span class="token attr-name">:to</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">'</span>/user<span class="token punctuation">'</span>+userId<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>用户<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>router-link</span><span class="token punctuation">&gt;</span></span>
+
+3、当前页 this.$route.params.abc
+
+</code></pre></div></div> <div class="note-page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">8/3/2021, 9:10:17 PM</span></div></div> <!----> </div></main></div><div class="global-ui"><!----></div></div>
+    <script src="/liyacong.github.io/assets/js/app.186adb7a.js" defer></script><script src="/liyacong.github.io/assets/js/2.f2422334.js" defer></script><script src="/liyacong.github.io/assets/js/8.e754a3bb.js" defer></script>
+</body>
+
+</html>
