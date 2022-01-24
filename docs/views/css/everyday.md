@@ -11,6 +11,7 @@ categories:
 
 鼠标不可点击时的**显示状态**
 
+
 ```css
 button {
   cursor: not-allowed;
