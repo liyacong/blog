@@ -317,3 +317,67 @@ tip: 子组件接收props属性childMyMessage，在父组件传值的时候即�
 问题：箭头函数中的this是如何查找的？
 答案：向外层作用域中，一层层查找this，直到有this的定义
 ```
+### url的hash和html5的history
+
+```markdown
+location.hash = 'aaa'===>localhost:8080/aaa
+history.pushState({},'','home')===>localhost:8080/home  栈结构先进后出
+history.pushState({},'','about')===>localhost:8080/about
+history.pushState({},'','My')===>localhost:8080/My
+history.back() 会返回到about地址
+
+history.replaceState({},"","/foo/bar")  替换后浏览器的后退按钮是不可点击的
+
+
+history.go(-1) 等价于 history.back()
+history.go(1) 等价于 history.forward()
+等于浏览器界面的前进后退
+```
+### 安装和使用vue-router
+```markdown
+安装 vue-router
+npm install vue-router --save
+在模块化工程中使用它（因为是一个插件，所以可以通过Vue.user()来安装路由功能）
+1、导入路由对象（import VueRouter from ‘vue-router’），并且调用Vue.use(VueRouter)
+2、创建路由实例，并且传入路由映射配置
+const routes = []
+const router = new VueRouter({
+  //配置路由和组件之间的应用关系
+   routes
+})
+3、在Vue实例中挂载创建的路由实例
+将router对象传入到vue实例
+export default router
+
+使用vue-router的步骤
+1、创建路由组件
+2、配置路由映射：组件和路径映射关系
+3、使用路由：通过<router-link></router-link>和<router-view></router-view>
+router-link相关属性
+to：用于指定跳转的路径
+replace：replace不会留下history记录，所以指定replace的情况下，后退键返回不能返回到上一个页面中
+active-class：自定义router-link路由匹配成功时的类名，如果不想在每个router-link上设置，可以在全局映射路由配置那设置linkActiveClass:'active'
+
+
+redirect路由重定向
+路由默认的Hash模式改为History模式
+
+
+
+$router 路由跳转
+this.$router.push('/home')  push=>pushState
+
+this.$router.replace('/home')  类似router-link的replace
+
+
+动态路由
+1、const router = [{
+   path:'/user/:abc',
+   component:User
+}]
+
+2、首页 <router-link :to="'/user'+userId">用户</router-link>
+
+3、当前页 this.$route.params.abc
+
+```
